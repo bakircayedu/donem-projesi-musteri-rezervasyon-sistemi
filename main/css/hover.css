@@ -1,0 +1,25 @@
+
+
+ 
+    
+    .box{
+		
+    transition: 0.5s;
+
+	}
+	.box:hover{
+		transform: scale(1.1);
+		
+		z-index: 2;
+		
+		
+	}
+
+	.clickable {
+		height: 100%;
+		width: 100%;
+		left: 0;
+		top: 0;
+		position: absolute;     
+		z-index: 1;
+	}
